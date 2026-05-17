@@ -1,0 +1,54 @@
+.post-detail {
+  background: var(--card);
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.post-detail h1 {
+  margin: 0.5rem 0 1rem;
+}
+
+.post-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-content {
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.comments-section h2 {
+  margin-bottom: 1rem;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.comment-form textarea {
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  resize: vertical;
+}
+
+.comment-list {
+  list-style: none;
+}
+
+.comment-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.comment-list li span {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--muted);
+}

@@ -1,0 +1,30 @@
+.post-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.post-form h1 {
+  margin-bottom: 1.5rem;
+}
+
+.post-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.post-form label {
+  font-weight: 600;
+}
+
+.post-form input,
+.post-form select {
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.post-form .ql-container {
+  min-height: 200px;
+  background: #fff;
+}

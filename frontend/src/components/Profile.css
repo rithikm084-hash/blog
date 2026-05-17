@@ -1,0 +1,22 @@
+.profile h1 {
+  margin-bottom: 1.5rem;
+}
+
+.profile-posts {
+  list-style: none;
+}
+
+.profile-posts li {
+  background: var(--card);
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.profile-posts li span {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
